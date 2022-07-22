@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.loginBox{
+	background-color: cyan;
+	height: 300px;
+	width: 300px;
+	border: 0px;
+	border-radius: 10px;
+	margin: 200px auto;
+
+}
+
+.sidebar{
+	background-color: skyblue;
+	width: 15%;
+	float: left;
+	height: 900px;
+}
+.mainview{
+	background-color: blue;
+	width: 85%;
+	float: right;
+	height: 900px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: green;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
